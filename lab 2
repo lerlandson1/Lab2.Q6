@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+#define CONST 42.094547
+
+main(){
+   float km, miles, yards;
+   miles = 26;
+   yards = 285;
+   km = 1.609 * (miles + yards / 1760.0);
+   printf("\n A marathon is %f Kilometers long", km);
+   scanf("%f", &km);
+   if(km=CONST){
+      printf("\nThe equation is correct");
+   }
+   
+   while(!kbhit()){}
+}
